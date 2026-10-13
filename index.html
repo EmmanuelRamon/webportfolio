@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel S. Ramon | IT Professional & Full-Stack Developer</title>
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">ER<span>.dev</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="hire-btn">Hire Me</a>
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Sliding Background Text -->
+    <section id="hero" class="hero">
+        <!-- Sliding Marquee Background Text -->
+        <div class="marquee-bg">
+            <div class="marquee-track">
+                <span>IT SUPPORT  &bull; IT PROFESSIONAL &bull; DEVELOPER &bull;&nbsp;</span>
+                <span>IT SUPPORT &bull; IT PROFESSIONAL &bull; DEVELOPER &bull;&nbsp;</span>
+            </div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content-center">
+                <div class="hero-image-wrapper">
+                    <div class="image-box">
+                        
+                        <img src="mon.jpg" alt="Emmanuel S. Ramon" onerror="this.style.display='none'; document.getElementById('fallback-icon').style.display='flex';">
+                        <div id="fallback-icon" class="fallback-profile" style="display:none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-text-overlay">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1>Emmanuel</h1>
+                    <h2>Information Technology Graduate | Full-Stack Developer | IT Technical Support | IT Specialist - Cybersecurity</h2>
+                    <p>Dedicated IT professional with a strong foundation in hardware, system troubleshooting, and building structured web & mobile applications.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn primary-btn">View Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/ramon-emmanuel-s-602336380" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/EmmanuelRamon" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:emmanuelramon100803@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL DOWN</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Dedicated Information Technology Graduate with a strong foundation in computer hardware, software troubleshooting, and basic networking configuration, complemented by hands-on experience gained through IT support training and freelance technical work.</p>
+                    <p>Proficient in diagnosing system issues, maintaining hardware equipment, and building structured web and mobile applications with integrated backend systems. Eager to bring technical proficiency, adaptability, and a strong commitment to service excellence to IT and Technical Support roles.</p>
+                    <div class="personal-info">
+                        <div><strong>Location:</strong> Caliraya, Lumban, Laguna</div>
+                        <div><strong>Email:</strong> emmanuelramon100803@gmail.com</div>
+                        <div><strong>Phone:</strong> (+63) 945 593 1342</div>
+                        <div><strong>Languages:</strong> Filipino (Native), English (Proficient)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> IT Support & Infrastructure</h3>
+                    <p>Hardware & Software Troubleshooting, System Maintenance, Printer Troubleshooting & Repair, Wi-Fi & Internet Connectivity, Basic Networking.</p>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fab fa-windows"></i>Windows</span>
+                        <span class="skill-badge"><i class="fas fa-network-wired"></i>LAN</span>
+                        <span class="skill-badge"><i class="fas fa-wifi"></i>Wi‑Fi</span>
+                        <span class="skill-badge"><i class="fas fa-print"></i>Print</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming & Development</h3>
+                    <p>Python (Flask), C#, Dart (Flutter), PHP, Java, JavaScript (ES6+), HTML5, CSS3, MySQL, PostgreSQL, HeidiSQL.</p>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fab fa-html5"></i>HTML</span>
+                        <span class="skill-badge"><i class="fab fa-css3-alt"></i>CSS</span>
+                        <span class="skill-badge"><i class="fab fa-js"></i>JS</span>
+                        <span class="skill-badge"><i class="fab fa-python"></i>Py</span>
+                        <span class="skill-badge"><i class="fas fa-database"></i>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> API & Cloud Integration</h3>
+                    <p>RESTful APIs, JSON, Firebase, Third-Party API Integration, Git/Version Control.</p>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fas fa-code"></i>REST</span>
+                        <span class="skill-badge"><i class="fas fa-braces"></i>JSON</span>
+                        <span class="skill-badge"><i class="fas fa-fire"></i>Firebase</span>
+                        <span class="skill-badge"><i class="fab fa-git-alt"></i>Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> Frontend, Design & Multimedia</h3>
+                    <p>UI/UX Design, Figma, Adobe XD, Adobe Photoshop, Adobe Premiere Pro, Canva.</p>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fab fa-figma"></i>Figma</span>
+                        <span class="skill-badge"><i class="fas fa-image"></i>PS</span>
+                        <span class="skill-badge"><i class="fas fa-video"></i>Pr</span>
+                        <span class="skill-badge"><i class="fas fa-pen-nib"></i>Canva</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI Tools</h3>
+                    <p>ChatGPT, Gemini, and Cursor AI for development support, workflow acceleration, and technical exploration.</p>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fas fa-robot"></i>AI</span>
+                        <span class="skill-badge"><i class="fas fa-comments"></i>GPT</span>
+                        <span class="skill-badge"><i class="fas fa-star"></i>Gemini</span>
+                        <span class="skill-badge"><i class="fas fa-terminal"></i>Cursor</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-user-check"></i> Competencies</h3>
+                    <p>Independent work, team collaboration, problem-solving, adaptability, and effective time management.</p>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fas fa-lightbulb"></i>Problem Solving</span>
+                        <span class="skill-badge"><i class="fas fa-users"></i>Teamwork</span>
+                        <span class="skill-badge"><i class="fas fa-arrows-spin"></i>Adaptability</span>
+                        <span class="skill-badge"><i class="fas fa-clock"></i>Time Mgmt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">March 2026 – June 2026</div>
+                    <div class="timeline-content">
+                        <h3>IT Support Trainee (OJT)</h3>
+                        <h4>First Laguna Electric Cooperative Inc. (FLECO) — Lumban, Laguna (440 Hours)</h4>
+                        <ul>
+                            <li>Provided comprehensive Technical Support for Computer Hardware and Software concerns across office operations.</li>
+                            <li>Performed routine maintenance, diagnostics, and troubleshooting for office printers and related hardware.</li>
+                            <li>Assisted staff members with system-related inquiries and operational software issues.</li>
+                            <li>Helped maintain optimal performance of office equipment and internal IT infrastructure.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 – Present</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Technician</h3>
+                        <h4>Lumban, Laguna</h4>
+                        <ul>
+                            <li>Diagnosed and repaired desktop computers and laptops, addressing complex hardware component failures and software corruptions.</li>
+                            <li>Executed Windows OS installations, hardware driver configurations, and system performance optimizations.</li>
+                            <li>Resolved complex printer issues including ink blockages, printhead clogging, mechanical feeder issues, and waste ink counter errors.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Project Experience</h2>
+            <div class="project-carousel" aria-label="Project experience carousel">
+                <button class="carousel-control carousel-prev" type="button" aria-label="Show previous project">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="projects-grid project-track">
+                <div class="project-card">
+                    <div class="project-preview">
+                        <img src="PIYUKONEK.PNG" alt="PIYUKONEK student concern management platform preview">
+                        <span><i class="fas fa-eye"></i> PIYUKONEK Platform Preview</span>
+                    </div>
+                    <div class="project-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="project-tag">Capstone</span>
+                    </div>
+                    <h3>PIYUKONEK</h3>
+                    <p class="project-sub">Web-Based Platform for Student Concern Management and Supporting Mental Wellness</p>
+                    <p>Developed a centralized digital platform for managing student concerns and supporting mental wellness at LSPU Santa Cruz Main Campus with automated grievance reporting workflows, Flask backend, and MySQL database.</p>
+                    <div class="tech-stack">
+                        <span>Python (Flask)</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="evo-preview" aria-hidden="true">
+                        <img src="EVO.PNG" alt="EVO e-commerce platform preview">
+                        <span><i class="fas fa-eye"></i> EVO Platform Preview</span>
+                    </div>
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="project-tag">E-Commerce</span>
+                    </div>
+                    <h3>EVO: Integrated E-Commerce Platform</h3>
+                    <p class="project-sub">Web Storefront & Cross-Platform Mobile App</p>
+                    <p>Engineered a dual-platform e-commerce solution featuring a web storefront and mobile app, implementing a unified Flask/MySQL backend with seamless cross-platform synchronization.</p>
+                    <div class="tech-stack">
+                        <span>Python (Flask)</span>
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-desktop"></i>
+                        <span class="project-tag">Desktop App</span>
+                    </div>
+                    <h3>Record Management System</h3>
+                    <p class="project-sub">Caliraya Water Refilling Station</p>
+                    <p>Designed and deployed a desktop-based record management system to digitize manual sales and inventory records using C# and MySQL, improving operational workflows and data accuracy.</p>
+                    <div class="tech-stack">
+                        <span>C#</span>
+                        <span>MySQL</span>
+                        <span>Desktop GUI</span>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control carousel-next" type="button" aria-label="Show next project">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-status" aria-live="polite">Project 1 of 3</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="edu-cert-grid">
+                <div class="edu-column">
+                    <h3><i class="fas fa-university"></i> Education</h3>
+                    <div class="edu-item">
+                        <h4>Bachelor of Science in Information Technology</h4>
+                        <p class="sub">Specialized in Web and Mobile Application Development</p>
+                        <p class="place">Laguna State Polytechnic University – Santa Cruz Main Campus | 2022 – 2026</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Senior High School (HUMSS)</h4>
+                        <p class="place">PHINMA – Union College of Laguna | 2020 – 2022</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Junior High School</h4>
+                        <p class="place">Pedro Guevarra Memorial National High School | 2016 – 2020</p>
+                    </div>
+                </div>
+                <div class="cert-column">
+                    <h3><i class="fas fa-certificate"></i> Certifications & Training</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/certiport-cybersecurity.PNG" alt="Certiport IT Specialist in Cybersecurity certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>certiport-cybersecurity.png</code></div>
+                            </div>
+                            <strong>Certiport / Pearson VUE:</strong> IT Specialist in Cybersecurity
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-ethical-hacker.PNG" alt="Cisco Ethical Hacker certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-ethical-hacker.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2026):</strong> Ethical Hacker
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-network-defense.PNG" alt="Cisco Network Defense certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-network-defense.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2026):</strong> Network Defense
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-customer-support.PNG" alt="Cisco IT Customer Support Basics certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-customer-support.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2026):</strong> IT Customer Support Basics
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-hardware-upgrade-support.PNG" alt="Cisco Hardware and Upgrade Support certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-hardware-upgrade-support.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2026):</strong> Hardware &amp; Upgrade Support
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-linux-essentials..PNG" alt="Cisco Linux Essentials certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-linux-essentials.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2025):</strong> Linux Essentials
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-cyber-threat-management.PNG" alt="Cisco Cyber Threat Management certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-cyber-threat-management.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2025):</strong> Cyber Threat Management
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-endpoint-security.PNG" alt="Cisco Endpoint Security certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-endpoint-security.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2025):</strong> Endpoint Security
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cisco-os-basics.PNG" alt="Cisco OS Basics certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cisco-os-basics.png</code></div>
+                            </div>
+                            <strong>Cisco Networking Academy (2025):</strong> OS Basics
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/data-privacy-awareness.PNG" alt="Data Privacy Awareness certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>data-privacy-awareness.png</code></div>
+                            </div>
+                            <strong>Data Privacy Awareness:</strong> November 17, 2025
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/inside-enemy-code.PNG" alt="Inside the Enemy Code certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>inside-enemy-code.png</code></div>
+                            </div>
+                            <strong>Inside the Enemy Code:</strong> Malware &amp; Threat Analysis (Oct 11, 2025)
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/it-security-governance.PNG" alt="IT Security Policies and Governance certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>it-security-governance.png</code></div>
+                            </div>
+                            <strong>IT Security Policies &amp; Governance:</strong> October 13, 2025
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/cloud-computing-fundamentals.PNG" alt="Cloud Computing Fundamentals certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>cloud-computing-fundamentals.png</code></div>
+                            </div>
+                            <strong>Cloud Computing Fundamentals:</strong> May 3, 2025
+                        </li>
+                        <li>
+                            <div class="cert-image">
+                                <img src="certifications/basic-cybersecurity-level-1.PNG" alt="Basic Cybersecurity Level 1 certificate">
+                                <div class="cert-image-placeholder"><i class="fas fa-image" aria-hidden="true"></i><span>Add image file:</span><code>basic-cybersecurity-level-1.png</code></div>
+                            </div>
+                            <strong>Basic Cybersecurity Level 1:</strong> April 22 – May 3, 2024
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <dialog class="cert-lightbox" id="certLightbox" aria-label="Certificate image viewer">
+        <button class="cert-lightbox-close" id="certLightboxClose" type="button" aria-label="Close certificate viewer" title="Close">
+            <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <img id="certLightboxImage" alt="">
+        <p id="certLightboxCaption"></p>
+    </dialog>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p>I am actively looking for IT and Technical Support roles or full-stack development opportunities. Feel free to reach out via email or phone!</p>
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <span>emmanuelramon100803@gmail.com</span>
+                        <button class="copy-email" type="button" data-email="emmanuelramon100803@gmail.com" aria-label="Copy email address" title="Copy email address">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(+63) 945 593 1342 / (+63) 956 456 2674</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Caliraya, Lumban, Laguna</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Emmanuel S. Ramon. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/ramon-emmanuel-s-602336380" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/EmmanuelRamon" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
