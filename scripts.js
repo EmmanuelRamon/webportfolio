@@ -79,16 +79,6 @@ if (themeToggle) {
     });
 }
 
-// Simple Contact Form Interaction
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Thank you for your message! This is a demo form, but feel free to email me directly at emmanuelramon100803@gmail.com.');
-        contactForm.reset();
-    });
-}
-
 // Project experience carousel
 const projectCards = Array.from(document.querySelectorAll('.project-track .project-card'));
 const previousProject = document.querySelector('.carousel-prev');
