@@ -267,12 +267,13 @@ nav {
 /* Hero Section with Sliding Background Text */
 .hero {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding-top: 75px;
+    padding: 110px 0 80px;
     background: linear-gradient(180deg, rgba(15, 16, 18, 0.08), var(--bg-dark)), radial-gradient(circle at 50% 45%, rgba(59, 130, 246, 0.14), transparent 25rem);
 }
 
@@ -439,11 +440,17 @@ nav {
 }
 
 .hero-btns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
     margin-bottom: 25px;
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 26px;
     border-radius: 6px;
     font-weight: 600;
@@ -452,6 +459,7 @@ nav {
     font-size: 0.95rem;
     border: 1px solid transparent;
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.16);
+    max-width: 100%;
 }
 
 .primary-btn {
@@ -467,7 +475,6 @@ nav {
     background-color: transparent;
     border: 1px solid var(--border-dark);
     color: var(--text-main);
-    margin-left: 10px;
     box-shadow: none;
 }
 
