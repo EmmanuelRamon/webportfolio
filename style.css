@@ -879,7 +879,7 @@ body.light-mode .skill-category h3 i {
     border: 1px solid var(--border-dark);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     transition: var(--transition);
     position: relative;
     overflow: hidden;
@@ -916,6 +916,10 @@ body.light-mode .skill-category h3 i {
 
 .project-card.is-next {
     order: 3;
+}
+
+.project-card:not(.is-prev):not(.is-active):not(.is-next) {
+    display: none;
 }
 
 .project-preview {
@@ -1054,13 +1058,42 @@ body.light-mode .skill-category h3 i {
 .project-card p {
     color: var(--text-muted);
     font-size: 0.95rem;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+}
+
+.project-highlights {
+    display: grid;
+    gap: 12px;
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.project-highlights li {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+.project-highlights li i {
+    margin-top: 4px;
+    color: var(--accent);
+    font-size: 0.75rem;
+}
+
+.project-highlights li strong {
+    color: var(--text-main);
 }
 
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    margin-top: auto;
+    padding-top: 16px;
 }
 
 .tech-stack span {
