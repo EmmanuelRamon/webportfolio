@@ -1042,6 +1042,32 @@ body.light-mode .skill-category h3 i {
     border-radius: 20px;
 }
 
+.project-labels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7px;
+}
+
+.project-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border: 1px solid rgba(94, 234, 212, 0.22);
+    border-radius: 20px;
+    background: rgba(94, 234, 212, 0.08);
+    color: var(--accent-soft);
+    font-size: 0.7rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.project-status i {
+    font-size: 0.42rem;
+}
+
 .project-card h3 {
     font-size: 1.3rem;
     margin-bottom: 5px;
