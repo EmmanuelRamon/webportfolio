@@ -939,6 +939,14 @@ body.light-mode .skill-category h3 i {
     display: block;
 }
 
+.tapsync-preview {
+    background: #e8eff3;
+}
+
+.tapsync-preview img {
+    object-fit: contain;
+}
+
 .project-preview::after {
     content: '';
     position: absolute;
